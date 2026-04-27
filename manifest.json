@@ -5,5 +5,5 @@
     "author": "YourName",
     "description": "一个独立的后台记忆处理插件，支持物品栏、状态表格提取与剧情推荐。",
     "main": "index.js",
-    "requires": ["1.11.0"]
+    "requires": []
 }
