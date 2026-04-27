@@ -1,0 +1,20 @@
+<div class="omni-panel" id="omni-settings-panel">
+    <div class="omni-title">⚙️ 后台独立 API 设置</div>
+    <small>用于后台静默提取状态，不占用主线 API。</small>
+    <br><br>
+    <label>API URL:</label>
+    <input type="text" id="omni-api-url" class="omni-input" placeholder="https://api.openai.com/v1/chat/completions">
+    <label>API Key:</label>
+    <input type="password" id="omni-api-key" class="omni-input" placeholder="sk-...">
+    
+    <!-- 新增：自动拉取模型的 UI -->
+    <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 5px;">
+        <label>选择模型 (Model):</label>
+        <button id="omni-btn-fetch-models" class="menu_button" style="font-size:0.8em; padding:2px 8px;">🔄 自动获取</button>
+    </div>
+    <select id="omni-api-model" class="omni-input">
+        <option value="">请先获取模型...</option>
+    </select>
+    
+    <button id="omni-btn-save" class="menu_button" style="width: 100%; margin-top: 10px;">💾 保存设置</button>
+</div>

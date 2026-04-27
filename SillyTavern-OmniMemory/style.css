@@ -1,0 +1,8 @@
+/* OmniMemory 插件样式 */
+.omni-container { padding: 10px; color: var(--SmartThemeBodyColor); }
+.omni-panel { background: var(--SmartThemeBlurTintColor); border-radius: 8px; padding: 10px; margin-bottom: 10px; border: 1px solid var(--SmartThemeBorderColor); }
+.omni-title { font-weight: bold; font-size: 1.1em; margin-bottom: 5px; border-bottom: 1px dashed gray; padding-bottom: 3px; }
+.omni-stat-row { display: flex; justify-content: space-between; margin-bottom: 3px; font-size: 0.9em; }
+.omni-stat-label { color: var(--SmartThemeQuoteColor); font-weight: bold; }
+.omni-inventory-item { display: inline-block; background: rgba(0,0,0,0.3); padding: 2px 6px; border-radius: 4px; margin: 2px; font-size: 0.85em; }
+.omni-input { width: 100%; background: var(--SmartThemeDarkColor); color: inherit; border: 1px solid gray; padding: 5px; border-radius: 4px; margin-bottom: 5px; }
